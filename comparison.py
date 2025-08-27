@@ -33,3 +33,12 @@ g = 59
 g1 = 60
 g2 = g <= g1
 print(g2)
+
+# Challenge !!
+# Write a script that initializes 2 variables x and y with the values 15 and 10 (accordingly).
+
+# After that initialize another variable z that will hold whether x is less than or equal to y. result= false
+x5 = 15 
+y5 = 10 
+z5 = x5 <= y5
+print(z5)
