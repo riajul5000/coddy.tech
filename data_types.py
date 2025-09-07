@@ -26,7 +26,27 @@ w = bytearray(5)
 # print(w)
 
 e = memoryview(bytes(5))
-print(e)
+# print(e)
 
 reason = None
-print(None)
+# print(None)
+
+x = 3+5j
+y = 5j
+z = -5j
+
+# print(complex(x))
+# print(complex(y))
+# print(complex(z))
+
+x2 = 2.3
+y2 = 4.5
+z1 = "7t"
+
+a1 = int(x2)
+b1 = float(y2)
+# c1 = complex(z1)
+
+print(int(a1))
+print(float(b1))
+# print(complex(c1))
