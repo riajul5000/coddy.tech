@@ -25,7 +25,60 @@ fruits = ["apple" , "mango", "orange"]
 for x in fruits:
     # print(x)
 
+fruits2 = "mango"
+for y in fruits2:
+    print(y)
 
-# fruits2 = "mango"
-# for y in fruits2:
-    # print(y)
+cars = ["porsche" , "bmw" , "mercedes" , "toyota", "Fiat"]
+for x in cars:
+    # print(x)
+    if x == "toyota":
+        break
+
+city = ["Rome" , "oslo", "Amsterdam", "Paris" , "Madrid" , "London"]
+for x  in city:
+    if x == "Paris":
+        break
+    # print(x)
+
+
+colors = ["Red" , "Pink" , "Blue" , "yellow", "Black"]
+for y in colors:
+    if y == "Pink":
+        continue
+    print(y)
+
+for y in range(6):
+    print(y)
+
+for x in range(1, 10):
+    print(x)
+
+for u in range(2, 30, 3):
+    print(u)
+
+for i in range(5, 30, 2, ):
+    print(i)
+
+for w in range( 1, 11):
+    print(w)
+else:
+    print("Finally finished")
+
+for o in range(10):
+    if o == 5:
+        break
+    print(o)
+else:
+    print("Finally Finished")
+
+country = ["Norway", "France" , "Spain"]
+city = ["kattegat", "paris" , "Barcelona" , "Valencia"]
+
+for x in country:
+    for y in city:
+        print(x ,":", y)
+
+for x in range (0 , 1, 2):
+    print(x)
+    pass
