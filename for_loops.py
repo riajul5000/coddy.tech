@@ -25,8 +25,8 @@ fruits = ["apple" , "mango", "orange"]
 for x in fruits:
     # print(x)
 
-fruits2 = "mango"
-for y in fruits2:
+fruits1 = "mango"
+for y in fruits1:
     print(y)
 
 cars = ["porsche" , "bmw" , "mercedes" , "toyota", "Fiat"]
