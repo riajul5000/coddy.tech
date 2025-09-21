@@ -65,4 +65,17 @@ def tour_area(z):
       total /= i 
    return total
 result = tour_area(70)
+# print(result)
+
+def office_room(u):
+   total = 1
+   for i in range(60, u):
+      total -= i
+   return total
+result = office_room(600)
+# print(result)
+
+def count_banana(x , y = 4 , z = 5):
+   return x + y + z
+result = count_banana(1)
 print(result)
