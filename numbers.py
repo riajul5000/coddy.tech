@@ -20,16 +20,19 @@
 
 # Read input string
 
-numbers_str = input( 1, 2 , 3)
+# numbers_str = input( 1, 2 , 3)
 
 # Split into list of strings
-numbers_list = numbers_str.split(", ")
+# numbers_list = numbers_str.split(", ")
 
 # Convert to integers
-numbers = [int(num) for num in numbers_list]
+# numbers = [int(num) for num in numbers_list]
 
 # Calculate sum
-total = sum(numbers)
+# total = sum(numbers)
 
 # Print result
-print(total)
+# print(total)
+
+num5 = 11 % 4
+print(num5)

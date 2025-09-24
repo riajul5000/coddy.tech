@@ -57,3 +57,8 @@ else :
     count = n1 * n2
     # print(count)
 
+numbers = 50
+if numbers % 2 != 0:
+    print("even")
+else:
+    print("odd")
